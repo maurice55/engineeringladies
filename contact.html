@@ -8,6 +8,13 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <style>
+hr{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 3px;
+  background-color: #767676;
+}
 
 ul{
  background-color: white;
@@ -70,6 +77,27 @@ body {
  background-color: #F7F3FF;
  font-family: cursive;
 }
+
+input[type=text]{
+  width : 40%;
+  padding : 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;;
+  border: 2px solid #ACE9E8;
+  border-radius: 4px;
+}
+
+textarea{
+  width : 40%;
+  padding : 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;;
+  border: 2px solid #ACE9E8;
+  border-radius: 4px;
+}
+a{
+  text-decoration: none;
+}
 </style>
 
 </head>
@@ -83,7 +111,7 @@ body {
 
 
 <ul>
- <li>  <a href = "blog.html"> Home </a></li>
+ <li>  <a href = "blogtest.html"> Home </a></li>
  <li>  <a href="#Travel"> Travel</a></li>
  <li>  <a href="#creative"> Recipies</a></li>
  <li>  <a href="#school"> On the Job</a></li>
@@ -102,17 +130,21 @@ body {
 
 <form action="/action_page.php">
   <lable for="name"></lable><br>
-  <input type="text" id="name" name="name" value="Name"> <br>
+  <input type="text" id="name" name="name" placeholder="Name"> <br>
 
   <lable for="email"></lable><br>
-  <input type="text" id="email" name="email" value="Email Address" ><br>
-<br>
-<form action="/action_page.php">
+  <input type="text" id="email" name="email" placeholder="Email Address" ><br><br>
+
 <textarea name="message" rows ="10" cols="50"></textarea><br><br>
+
+
+<button type ="submit">Submit</button>
+
 </form>
 
-<input type = "submit" value="Submit">
-</form>
+<hr />
+<p>Instagram<a href="https://www.instagram.com/engineeringladies/"> @engineeringladies</p>
+
 
 </body>
 </html>
